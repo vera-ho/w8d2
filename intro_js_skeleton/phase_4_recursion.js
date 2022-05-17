@@ -66,3 +66,21 @@ function deepDup(arr) {
     )
     return dup
 }
+
+// function bsearch(arr, target){
+//     if(arr.length === 0) {
+//         return -1;
+//     }
+
+//     mid = Math.floor(arr.length / 2);
+//     if(arr[mid] === target) {
+//         return mid;
+//     } else if(arr[mid] > target) {
+//         let idx = bsearch(arr.slice(0,mid), target);
+//         return idx;
+//     } else {
+//         debugger
+//         let idx = bsearch(arr.slice(mid + 1, arr.length), target);
+//         return idx + 1 + mid;
+//     }
+// }
